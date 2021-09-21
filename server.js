@@ -1,3 +1,3 @@
 const app = require('./index');
 
-app.listen(8888);
+app.listen(process.env.PORT || 8888, () => console.log("servidor rodandle"));
